@@ -27,7 +27,6 @@ const ResultPage = ({ makeId, year }) => {
   }, [makeId, year]);
 
   useEffect(() => {
-    console.log(models);
     if (models.length) {
       setModelName(models[0].Make_Name);
     }
